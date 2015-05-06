@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title></title>
+  <title>Horse Race</title>
 </head>
 <body>
 <?php
@@ -10,9 +10,10 @@
     public $name = '';
     public $location;
     MAX_POSITION = 30;
+    $location = new Location;
     function finished() {
 
-      $location = new Location;
+      $location->$position >= MAX_POSITION;
 
     }
   }
